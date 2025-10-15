@@ -1,0 +1,122 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #000000, #333333, #525252);
+    background-size: 400% 400%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+}
+
+#chatbot-container {
+position:absolute;
+bottom:25px;
+right:50;
+width: 100%;
+height: 98%;
+background-color: #000000;
+border-radius: 5px;
+}
+#chat-header{
+background-color: #ffffff;
+border-radius: 30px;
+width: 100%;
+height: 7%;
+text-align: center;
+font-size: 300%;
+}
+#close-button{
+
+    position: absolute;
+    right:60px ;
+    height: 40px;
+    width: 100px;
+    bottom: 93.5%;
+    border-radius: 6px;
+    border-color: #333333;
+    cursor: pointer;
+    background-color: #b9b8b8;
+}
+#close-button:hover{
+
+background-color: #949494;
+
+}
+
+#chatbot-input-container{
+
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px ;
+border: 2px;
+position: absolute;
+bottom: 0;
+right: 40px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px;
+}
+
+#chatbot-input{
+left:40px ;
+height: 40px;
+width: 1000px;
+border-radius: 15px;
+background-color: #ccc8c8;
+}
+
+#send-btn{
+right: 50px ;
+height: 40px;
+width: 100px;
+border-radius: 10px;
+border-color: #000000;
+cursor: pointer;
+background-color: #898989;
+
+}
+#send-btn:hover {
+  background-color: #666565;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#chatbot-icon {
+  position: absolute;
+  bottom: 350px;
+  right: 700px;
+  width: 100px;
+  height: 100px;
+
+  background-color: #ffffff;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+#chatbot-icon:hover {
+  background-color: #000000;
+  transform: scale(1.1);
+}
+#chatbot-messages{
+
+font-size: 40px;
+color: #ffffff;
+
+}
+
